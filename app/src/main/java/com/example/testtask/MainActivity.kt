@@ -39,19 +39,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calculateScore() {
-        rootLayout.getChildren<TableRow>()
-            .forEach { calculateRowScore(it) }
+        tableRowList.forEach { row ->
+            var scoreValue = 0
+            row.getChildren<EditText>()
+                .forEach { edit ->
+                    val editNumber = edit.text.toString().toIntOrNull() ?: 0
+                    scoreValue += editNumber
+                }
+            val scoreView = row.getChildren<TextView>().firstOrNull { it.tag == "score" }
+            scoreView?.text = scoreValue.toString()
+        }
     }
 
     private fun calculateRowScore(row: TableRow) {
-        var scoreValue = 0
-        row.getChildren<EditText>()
-            .forEach {
-                val editNumber = it.text.toString().toIntOrNull() ?: 0
-                scoreValue += editNumber
-            }
-        val scoreView = row.getChildren<TextView>().filter { it.tag == "score" }.first()
-        scoreView.text = scoreValue.toString()
+
     }
 
     private fun calculatePlace() {
