@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Test task</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="member_one">Участник 1</string>
+    <string name="member_two">Участник 2</string>
+    <string name="member_three">Участник 3</string>
+    <string name="member_four">Участник 4</string>
+    <string name="member_five_">Участник 5</string>
+    <string name="member_six">Участник 6</string>
+    <string name="member_seven">Участник 7</string>
+    <string name="x">x</string>
+    <string name="summa">Сумма очков</string>
+    <string name="place">Место</string>
 </resources>
