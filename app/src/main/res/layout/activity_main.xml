@@ -10,6 +10,7 @@
 
     <TableRow
         android:layout_width="match_parent"
+        android:tag="skip"
         android:layout_height="match_parent"
         android:layout_weight="1">
 
@@ -17,11 +18,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:padding="8dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:layout_weight="1"
             android:padding="8dp" />
 
@@ -121,6 +124,7 @@
 
         <TextView
             android:layout_width="match_parent"
+            android:gravity="center"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="?colorOnSecondary" />
@@ -229,6 +233,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:layout_weight="1"
             android:background="?colorOnSecondary" />
 
@@ -337,6 +342,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:background="?colorOnSecondary" />
 
         <EditText
@@ -443,6 +449,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:layout_weight="1"
             android:background="?colorOnSecondary" />
 
@@ -550,6 +557,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:layout_weight="1"
             android:background="?colorOnSecondary" />
 
@@ -764,6 +772,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:layout_weight="1"
             android:background="?colorOnSecondary" />
 
