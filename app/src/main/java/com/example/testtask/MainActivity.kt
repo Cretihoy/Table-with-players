@@ -1,6 +1,7 @@
 package com.example.testtask
 
 import android.os.Bundle
+import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.TableLayout
@@ -12,54 +13,59 @@ import androidx.core.widget.addTextChangedListener
 
 class MainActivity : AppCompatActivity() {
 
-    private val rootLayout: TableLayout by lazy { findViewById(R.id.root) }
-    private var tableRowList = listOf<TableRow>()
+    private val root: TableLayout by lazy { findViewById(R.id.root) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initRows()
         initEditListeners()
     }
 
-    private fun initRows() {
-        tableRowList = rootLayout.getChildren()
-    }
-
     private fun initEditListeners() {
-        tableRowList.forEach { row ->
-            row.getChildren<EditText>()
-                .forEach { edit ->
-                    edit.addTextChangedListener {
-                        calculateScore()
+        root.getChildren<TableRow>()
+            .forEach { currentRow ->
+                currentRow.getChildren<EditText>()
+                    .forEach { edit ->
+                        edit.addTextChangedListener {
+                            root.getChildren<TableRow>()
+                                .forEach { row ->
+                                    val score = row.getScore()
+                                    val place = root.getPlace(row)
+                                    row.showNumberByTag(score, "score")
+                                    row.showNumberByTag(place, "place")
+                                }
+                        }
                     }
-                }
-        }
+            }
     }
 
-    private fun calculateScore() {
-        tableRowList.forEach { row ->
-            var scoreValue = 0
-            row.getChildren<EditText>()
-                .forEach { edit ->
-                    val editNumber = edit.text.toString().toIntOrNull() ?: 0
-                    scoreValue += editNumber
-                }
-            val scoreView = row.getChildren<TextView>().firstOrNull { it.tag == "score" }
-            scoreView?.text = scoreValue.toString()
-        }
+    private fun ViewGroup.getPlace(row: TableRow): Int {
+        return getChildren<TableRow>()
+            .filter { it.tag != "skip" }
+            .sortedByDescending { it.getScore() }
+            .mapIndexed { index, it ->
+                Pair(index + 1, it)
+            }
+            .firstOrNull { it.second == row }?.first ?: 0
     }
 
-    private fun calculateRowScore(row: TableRow) {
-
+    private fun ViewGroup.getScore(): Int {
+        return getChildren<EditText>()
+            .sumOf {
+                it.text.toString().toIntOrNull() ?: 0
+            }
     }
 
-    private fun calculatePlace() {
-
+    private fun ViewGroup.showNumberByTag(num: Int, tag: String) {
+        getTextViewByTag(tag)?.text = num.toString()
     }
 
-    inline fun <reified T> ViewGroup.getChildren(): List<T> {
+    private fun ViewGroup.getTextViewByTag(tag: String): TextView? {
+        return getChildren<TextView>().firstOrNull { it.tag == tag }
+    }
+
+    private inline fun <reified T : View> ViewGroup.getChildren(): List<T> {
         return children
             .filter { it is T }
             .map { it as T }
