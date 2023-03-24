@@ -15,90 +15,68 @@
         android:tag="skip">
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="8dp" />
+            android:layout_height="match_parent" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="8dp" />
+            android:layout_height="match_parent" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/one"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/one" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/two"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/two" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/three"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/three" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/four"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/four" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/five"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/five" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/six"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/six" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/seven"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/seven" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/summa"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/summa" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/place"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/place" />
     </TableRow>
 
     <TableRow
@@ -107,20 +85,16 @@
         android:layout_weight="1">
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/member_one"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/member_one" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/one"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/one" />
 
         <TextView
             android:layout_width="match_parent"
@@ -130,80 +104,47 @@
             android:gravity="center" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="score"
-            android:textColor="?colorOnSecondary" />
+            android:tag="score" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="place"
-            android:textColor="?colorOnSecondary" />
+            android:tag="place" />
     </TableRow>
 
     <TableRow
@@ -212,30 +153,21 @@
         android:layout_weight="1">
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/member_two"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/member_two" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/two"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/two" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
             android:layout_width="match_parent"
@@ -245,70 +177,41 @@
             android:gravity="center" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="score"
-            android:textColor="?colorOnSecondary" />
+            android:tag="score" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="place"
-            android:textColor="?colorOnSecondary" />
+            android:tag="place" />
     </TableRow>
 
     <TableRow
@@ -317,40 +220,26 @@
         android:layout_weight="1">
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/member_three"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/member_three" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/three"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/three" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
             android:layout_width="match_parent"
@@ -360,60 +249,36 @@
             android:gravity="center" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="score"
-            android:textColor="?colorOnSecondary" />
+            android:tag="score" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="place"
-            android:textColor="?colorOnSecondary" />
+            android:tag="place" />
     </TableRow>
 
     <TableRow
@@ -422,50 +287,31 @@
         android:layout_weight="1">
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/member_four"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/member_four" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/four"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/four" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
             android:layout_width="match_parent"
@@ -475,50 +321,31 @@
             android:gravity="center" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="score"
-            android:textColor="?colorOnSecondary" />
+            android:tag="score" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="place"
-            android:textColor="?colorOnSecondary" />
+            android:tag="place" />
     </TableRow>
 
     <TableRow
@@ -527,60 +354,36 @@
         android:layout_weight="1">
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/member_five_"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/member_five_" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/five"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/five" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
             android:layout_width="match_parent"
@@ -590,40 +393,26 @@
             android:gravity="center" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="score"
-            android:textColor="?colorOnSecondary" />
+            android:tag="score" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="place"
-            android:textColor="?colorOnSecondary" />
+            android:tag="place" />
     </TableRow>
 
     <TableRow
@@ -632,70 +421,41 @@
         android:layout_weight="1">
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/member_six"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/member_six" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/six"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/six" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
             android:layout_width="match_parent"
@@ -704,30 +464,21 @@
             android:background="?colorOnSecondary" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="score"
-            android:textColor="?colorOnSecondary" />
+            android:tag="score" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="place"
-            android:textColor="?colorOnSecondary" />
+            android:tag="place" />
     </TableRow>
 
     <TableRow
@@ -736,80 +487,46 @@
         android:layout_weight="1">
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/member_seven"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/member_seven" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/seven"
-            android:textColor="?colorOnSecondary" />
+            android:text="@string/seven" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <EditText
+            style="@style/Theme.TestTask.EditText"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:hint="@string/x"
-            android:inputType="number"
-            android:textColor="?colorOnSecondary" />
+            android:layout_height="match_parent" />
 
         <TextView
             android:layout_width="match_parent"
@@ -819,19 +536,15 @@
             android:gravity="center" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="score"
-            android:textColor="?colorOnSecondary" />
+            android:tag="score" />
 
         <TextView
+            style="@style/Theme.TestTask.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:tag="place"
-            android:textColor="?colorOnSecondary" />
+            android:tag="place" />
     </TableRow>
 </TableLayout>
