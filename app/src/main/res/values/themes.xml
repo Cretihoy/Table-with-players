@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.TestTask" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
@@ -12,5 +12,20 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.TestTask.TextView" parent="Theme.TestTask">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?colorOnSecondary</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/back</item>
+    </style>
+
+    <style name="Theme.TestTask.EditText" parent="Theme.TestTask.TextView">
+        <item name="android:importantForAutofill">no</item>
+        <item name="android:hint">@string/x</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
     </style>
 </resources>
