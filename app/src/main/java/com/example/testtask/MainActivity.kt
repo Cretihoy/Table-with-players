@@ -1,5 +1,6 @@
 package com.example.testtask
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
@@ -7,9 +8,13 @@ import android.widget.EditText
 import android.widget.TableLayout
 import android.widget.TableRow
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.children
 import androidx.core.widget.addTextChangedListener
+import com.google.android.material.R as materialR
+
+private const val WRONG_VALUE = -1
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,7 +32,18 @@ class MainActivity : AppCompatActivity() {
             .forEach { currentRow ->
                 currentRow.getChildren<EditText>()
                     .forEach { edit ->
-                        edit.addTextChangedListener {
+                        edit.addTextChangedListener { text ->
+                            val value = text?.toString()?.toIntOrNull() ?: WRONG_VALUE
+                            if (value in 0..5) {
+                                edit.setTextColor(getDefaultTextColor())
+                            } else {
+                                edit.setTextColor(Color.RED)
+                                Toast.makeText(
+                                    this,
+                                    "ERROR",
+                                    Toast.LENGTH_SHORT
+                                ).show()
+                            }
                             root.getChildren<TableRow>()
                                 .forEach { row ->
                                     val score = row.getScore()
@@ -38,6 +54,16 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
             }
+    }
+
+    private fun getDefaultTextColor(): Int {
+        val typedArray = obtainStyledAttributes(
+            R.style.Theme_TestTask,
+            intArrayOf(materialR.attr.colorOnSecondary)
+        )
+        val colorInt = typedArray.getColor(0, 0)
+        typedArray.recycle()
+        return colorInt
     }
 
     private fun ViewGroup.getPlace(row: TableRow): Int {
@@ -53,7 +79,12 @@ class MainActivity : AppCompatActivity() {
     private fun ViewGroup.getScore(): Int {
         return getChildren<EditText>()
             .sumOf {
-                it.text.toString().toIntOrNull() ?: 0
+                val value = it.text.toString().toIntOrNull() ?: 0
+                if (value in 0..5) {
+                    value
+                } else {
+                    0
+                }
             }
     }
 
